@@ -1,0 +1,576 @@
+{
+    "schema_version": 2,
+    "session_type": "batllm_saved_session",
+    "app_version": "0.3.6",
+    "saved_at": "2026-11-09T17:31:31.710613",
+    "games": [
+        {
+            "game_id": 1,
+            "start_time": "2026-11-09T16:59:16.177975",
+            "initial_state": {},
+            "rounds": [
+                {
+                    "round": 1,
+                    "start_time": "2026-11-09T17:13:37.148424",
+                    "initial_state": {
+                        "1": {
+                            "id": 1,
+                            "health": 30,
+                            "x": 0.2005911236142282,
+                            "y": 0.11006493550841644,
+                            "rot": 71.08654598754582,
+                            "shield": true,
+                            "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\n\nLo que necesito que hagas es primero girar en sentido antihorario 66 grados. Luego bajar el escudo y disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                            "last_llm_response": null
+                        },
+                        "2": {
+                            "id": 2,
+                            "health": 30,
+                            "x": 0.9432836816275717,
+                            "y": 0.15669918453062265,
+                            "rot": 121.20581321251838,
+                            "shield": true,
+                            "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\n\nLo que necesito que hagas es primero girar en sentido horario 60 grados. Luego bajar el escudo y disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                            "last_llm_response": null
+                        }
+                    },
+                    "gameplay_settings_snapshot": {
+                        "bot_diameter": 0.1,
+                        "bot_step_length": 0.03,
+                        "bullet_damage": 5,
+                        "bullet_diameter": 0.02,
+                        "bullet_step_length": 0.01,
+                        "shield_size": 70.0,
+                        "shield_initial_state": true,
+                        "initial_health": 30,
+                        "turns_per_round": 8,
+                        "total_rounds": 2
+                    },
+                    "prompts": [
+                        {
+                            "bot_id": 1,
+                            "prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\n\nLo que necesito que hagas es primero girar en sentido antihorario 66 grados. Luego bajar el escudo y disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar."
+                        },
+                        {
+                            "bot_id": 2,
+                            "prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\n\nLo que necesito que hagas es primero girar en sentido horario 60 grados. Luego bajar el escudo y disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar."
+                        }
+                    ],
+                    "turns": [
+                        {
+                            "turn": 1,
+                            "start_time": "2026-11-09T17:13:37.161138",
+                            "pre_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.2005911236142282,
+                                    "y": 0.11006493550841644,
+                                    "rot": 71.08654598754582,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\n\nLo que necesito que hagas es primero girar en sentido antihorario 66 grados. Luego bajar el escudo y disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": null
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.9432836816275717,
+                                    "y": 0.15669918453062265,
+                                    "rot": 121.20581321251838,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\n\nLo que necesito que hagas es primero girar en sentido horario 60 grados. Luego bajar el escudo y disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": null
+                                }
+                            },
+                            "plays": [
+                                {
+                                    "bot_id": 1,
+                                    "llm_response": "A66\nS\nB\nS\nB",
+                                    "cmd": "ERR"
+                                },
+                                {
+                                    "bot_id": 2,
+                                    "llm_response": "A60S1B",
+                                    "cmd": "ERR"
+                                }
+                            ],
+                            "cmd": "",
+                            "post_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.2005911236142282,
+                                    "y": 0.11006493550841644,
+                                    "rot": 71.08654598754582,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\n\nLo que necesito que hagas es primero girar en sentido antihorario 66 grados. Luego bajar el escudo y disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "A66\nS\nB\nS\nB"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.9432836816275717,
+                                    "y": 0.15669918453062265,
+                                    "rot": 121.20581321251838,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\n\nLo que necesito que hagas es primero girar en sentido horario 60 grados. Luego bajar el escudo y disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "A60S1B"
+                                }
+                            },
+                            "end_time": "2026-11-09T17:13:52.183781"
+                        },
+                        {
+                            "turn": 2,
+                            "start_time": "2026-11-09T17:13:52.196465",
+                            "pre_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.2005911236142282,
+                                    "y": 0.11006493550841644,
+                                    "rot": 71.08654598754582,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\n\nLo que necesito que hagas es primero girar en sentido antihorario 66 grados. Luego bajar el escudo y disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "A66\nS\nB\nS\nB"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.9432836816275717,
+                                    "y": 0.15669918453062265,
+                                    "rot": 121.20581321251838,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\n\nLo que necesito que hagas es primero girar en sentido horario 60 grados. Luego bajar el escudo y disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "A60S1B"
+                                }
+                            },
+                            "plays": [
+                                {
+                                    "bot_id": 1,
+                                    "llm_response": "A66\nS\nB\nS\nB",
+                                    "cmd": "ERR"
+                                },
+                                {
+                                    "bot_id": 2,
+                                    "llm_response": "A60S1B",
+                                    "cmd": "ERR"
+                                }
+                            ],
+                            "cmd": "",
+                            "post_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.2005911236142282,
+                                    "y": 0.11006493550841644,
+                                    "rot": 71.08654598754582,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\n\nLo que necesito que hagas es primero girar en sentido antihorario 66 grados. Luego bajar el escudo y disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "A66\nS\nB\nS\nB"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.9432836816275717,
+                                    "y": 0.15669918453062265,
+                                    "rot": 121.20581321251838,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\n\nLo que necesito que hagas es primero girar en sentido horario 60 grados. Luego bajar el escudo y disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "A60S1B"
+                                }
+                            },
+                            "end_time": "2026-11-09T17:13:57.203141"
+                        },
+                        {
+                            "turn": 3,
+                            "start_time": "2026-11-09T17:13:57.214870",
+                            "pre_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.2005911236142282,
+                                    "y": 0.11006493550841644,
+                                    "rot": 71.08654598754582,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\n\nLo que necesito que hagas es primero girar en sentido antihorario 66 grados. Luego bajar el escudo y disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "A66\nS\nB\nS\nB"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.9432836816275717,
+                                    "y": 0.15669918453062265,
+                                    "rot": 121.20581321251838,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\n\nLo que necesito que hagas es primero girar en sentido horario 60 grados. Luego bajar el escudo y disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "A60S1B"
+                                }
+                            },
+                            "plays": [
+                                {
+                                    "bot_id": 1,
+                                    "llm_response": "A66\nS\nB\nS\nB",
+                                    "cmd": "ERR"
+                                },
+                                {
+                                    "bot_id": 2,
+                                    "llm_response": "S0B",
+                                    "cmd": "ERR"
+                                }
+                            ],
+                            "cmd": "",
+                            "post_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.2005911236142282,
+                                    "y": 0.11006493550841644,
+                                    "rot": 71.08654598754582,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\n\nLo que necesito que hagas es primero girar en sentido antihorario 66 grados. Luego bajar el escudo y disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "A66\nS\nB\nS\nB"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.9432836816275717,
+                                    "y": 0.15669918453062265,
+                                    "rot": 121.20581321251838,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\n\nLo que necesito que hagas es primero girar en sentido horario 60 grados. Luego bajar el escudo y disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "S0B"
+                                }
+                            },
+                            "end_time": "2026-11-09T17:14:04.386049"
+                        },
+                        {
+                            "turn": 4,
+                            "start_time": "2026-11-09T17:14:04.397586",
+                            "pre_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.2005911236142282,
+                                    "y": 0.11006493550841644,
+                                    "rot": 71.08654598754582,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\n\nLo que necesito que hagas es primero girar en sentido antihorario 66 grados. Luego bajar el escudo y disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "A66\nS\nB\nS\nB"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.9432836816275717,
+                                    "y": 0.15669918453062265,
+                                    "rot": 121.20581321251838,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\n\nLo que necesito que hagas es primero girar en sentido horario 60 grados. Luego bajar el escudo y disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "S0B"
+                                }
+                            },
+                            "plays": [
+                                {
+                                    "bot_id": 1,
+                                    "llm_response": "A66\nS\nB\nS\nB",
+                                    "cmd": "ERR"
+                                },
+                                {
+                                    "bot_id": 2,
+                                    "llm_response": "S0B",
+                                    "cmd": "ERR"
+                                }
+                            ],
+                            "cmd": "",
+                            "post_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.2005911236142282,
+                                    "y": 0.11006493550841644,
+                                    "rot": 71.08654598754582,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\n\nLo que necesito que hagas es primero girar en sentido antihorario 66 grados. Luego bajar el escudo y disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "A66\nS\nB\nS\nB"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.9432836816275717,
+                                    "y": 0.15669918453062265,
+                                    "rot": 121.20581321251838,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\n\nLo que necesito que hagas es primero girar en sentido horario 60 grados. Luego bajar el escudo y disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "S0B"
+                                }
+                            },
+                            "end_time": "2026-11-09T17:14:12.106224"
+                        },
+                        {
+                            "turn": 5,
+                            "start_time": "2026-11-09T17:14:12.118080",
+                            "pre_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.2005911236142282,
+                                    "y": 0.11006493550841644,
+                                    "rot": 71.08654598754582,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\n\nLo que necesito que hagas es primero girar en sentido antihorario 66 grados. Luego bajar el escudo y disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "A66\nS\nB\nS\nB"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.9432836816275717,
+                                    "y": 0.15669918453062265,
+                                    "rot": 121.20581321251838,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\n\nLo que necesito que hagas es primero girar en sentido horario 60 grados. Luego bajar el escudo y disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "S0B"
+                                }
+                            },
+                            "plays": [
+                                {
+                                    "bot_id": 1,
+                                    "llm_response": "A66\nS\nB",
+                                    "cmd": "ERR"
+                                },
+                                {
+                                    "bot_id": 2,
+                                    "llm_response": "S0B",
+                                    "cmd": "ERR"
+                                }
+                            ],
+                            "cmd": "",
+                            "post_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.2005911236142282,
+                                    "y": 0.11006493550841644,
+                                    "rot": 71.08654598754582,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\n\nLo que necesito que hagas es primero girar en sentido antihorario 66 grados. Luego bajar el escudo y disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "A66\nS\nB"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.9432836816275717,
+                                    "y": 0.15669918453062265,
+                                    "rot": 121.20581321251838,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\n\nLo que necesito que hagas es primero girar en sentido horario 60 grados. Luego bajar el escudo y disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "S0B"
+                                }
+                            },
+                            "end_time": "2026-11-09T17:14:18.126553"
+                        },
+                        {
+                            "turn": 6,
+                            "start_time": "2026-11-09T17:14:18.138558",
+                            "pre_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.2005911236142282,
+                                    "y": 0.11006493550841644,
+                                    "rot": 71.08654598754582,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\n\nLo que necesito que hagas es primero girar en sentido antihorario 66 grados. Luego bajar el escudo y disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "A66\nS\nB"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.9432836816275717,
+                                    "y": 0.15669918453062265,
+                                    "rot": 121.20581321251838,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\n\nLo que necesito que hagas es primero girar en sentido horario 60 grados. Luego bajar el escudo y disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "S0B"
+                                }
+                            },
+                            "plays": [
+                                {
+                                    "bot_id": 1,
+                                    "llm_response": "A66\nS\nB",
+                                    "cmd": "ERR"
+                                },
+                                {
+                                    "bot_id": 2,
+                                    "llm_response": "A60",
+                                    "cmd": "A60.0"
+                                }
+                            ],
+                            "cmd": "",
+                            "post_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.2005911236142282,
+                                    "y": 0.11006493550841644,
+                                    "rot": 71.08654598754582,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\n\nLo que necesito que hagas es primero girar en sentido antihorario 66 grados. Luego bajar el escudo y disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "A66\nS\nB"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.9432836816275717,
+                                    "y": 0.15669918453062265,
+                                    "rot": 61.20581321251838,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\n\nLo que necesito que hagas es primero girar en sentido horario 60 grados. Luego bajar el escudo y disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "A60"
+                                }
+                            },
+                            "end_time": "2026-11-09T17:14:24.351807"
+                        },
+                        {
+                            "turn": 7,
+                            "start_time": "2026-11-09T17:14:24.365106",
+                            "pre_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.2005911236142282,
+                                    "y": 0.11006493550841644,
+                                    "rot": 71.08654598754582,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\n\nLo que necesito que hagas es primero girar en sentido antihorario 66 grados. Luego bajar el escudo y disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "A66\nS\nB"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.9432836816275717,
+                                    "y": 0.15669918453062265,
+                                    "rot": 61.20581321251838,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\n\nLo que necesito que hagas es primero girar en sentido horario 60 grados. Luego bajar el escudo y disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "A60"
+                                }
+                            },
+                            "plays": [
+                                {
+                                    "bot_id": 1,
+                                    "llm_response": "A66\nS\nB",
+                                    "cmd": "ERR"
+                                },
+                                {
+                                    "bot_id": 2,
+                                    "llm_response": "S0B",
+                                    "cmd": "ERR"
+                                }
+                            ],
+                            "cmd": "",
+                            "post_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.2005911236142282,
+                                    "y": 0.11006493550841644,
+                                    "rot": 71.08654598754582,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\n\nLo que necesito que hagas es primero girar en sentido antihorario 66 grados. Luego bajar el escudo y disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "A66\nS\nB"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.9432836816275717,
+                                    "y": 0.15669918453062265,
+                                    "rot": 61.20581321251838,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\n\nLo que necesito que hagas es primero girar en sentido horario 60 grados. Luego bajar el escudo y disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "S0B"
+                                }
+                            },
+                            "end_time": "2026-11-09T17:14:30.758511"
+                        },
+                        {
+                            "turn": 8,
+                            "start_time": "2026-11-09T17:14:30.769953",
+                            "pre_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.2005911236142282,
+                                    "y": 0.11006493550841644,
+                                    "rot": 71.08654598754582,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\n\nLo que necesito que hagas es primero girar en sentido antihorario 66 grados. Luego bajar el escudo y disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "A66\nS\nB"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.9432836816275717,
+                                    "y": 0.15669918453062265,
+                                    "rot": 61.20581321251838,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\n\nLo que necesito que hagas es primero girar en sentido horario 60 grados. Luego bajar el escudo y disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "S0B"
+                                }
+                            },
+                            "plays": [
+                                {
+                                    "bot_id": 1,
+                                    "llm_response": "A66\nS\nB",
+                                    "cmd": "ERR"
+                                },
+                                {
+                                    "bot_id": 2,
+                                    "llm_response": "S0B",
+                                    "cmd": "ERR"
+                                }
+                            ],
+                            "cmd": "",
+                            "post_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.2005911236142282,
+                                    "y": 0.11006493550841644,
+                                    "rot": 71.08654598754582,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\n\nLo que necesito que hagas es primero girar en sentido antihorario 66 grados. Luego bajar el escudo y disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "A66\nS\nB"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.9432836816275717,
+                                    "y": 0.15669918453062265,
+                                    "rot": 61.20581321251838,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\n\nLo que necesito que hagas es primero girar en sentido horario 60 grados. Luego bajar el escudo y disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "S0B"
+                                }
+                            },
+                            "end_time": "2026-11-09T17:14:37.377274"
+                        }
+                    ],
+                    "end_time": "2026-11-09T17:14:37.390129"
+                }
+            ],
+            "winner": null
+        }
+    ],
+    "llm_metadata": {
+        "configured_model": "llama3.2:3b",
+        "last_served_model": "llama3.2:3b",
+        "request_timeout": 75.0,
+        "warmup_timeout": 30.0,
+        "url": "http://localhost",
+        "port": 11434,
+        "config_snapshot": {
+            "num_ctx": 4096,
+            "path": "/api/chat"
+        },
+        "provider_metadata": {}
+    }
+}
