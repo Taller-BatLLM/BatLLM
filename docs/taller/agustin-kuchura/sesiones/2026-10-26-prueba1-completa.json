@@ -1,0 +1,1124 @@
+{
+    "schema_version": 2,
+    "session_type": "batllm_saved_session",
+    "app_version": "0.3.6",
+    "saved_at": "2026-10-26T21:42:40.697087",
+    "games": [
+        {
+            "game_id": 1,
+            "start_time": "2026-10-26T19:15:27.564896",
+            "initial_state": {},
+            "rounds": [
+                {
+                    "round": 1,
+                    "start_time": "2026-10-26T21:11:11.627910",
+                    "initial_state": {
+                        "1": {
+                            "id": 1,
+                            "health": 30,
+                            "x": 0.6127092772573287,
+                            "y": 0.6200610940067607,
+                            "rot": 223.54582987509932,
+                            "shield": true,
+                            "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\nLos comandos válidos son:\nA<angulo>: girar en sentido antihorario, ej A90\nS1: subir el escudo\nS2: bajar el escudo\nB: disparar\n\nLo que necesito que hagas es primero girar en sentido antihorario 90 grados. Luego disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                            "last_llm_response": null
+                        },
+                        "2": {
+                            "id": 2,
+                            "health": 30,
+                            "x": 0.14524620978152422,
+                            "y": 0.8600539030627627,
+                            "rot": 43.63357729904723,
+                            "shield": true,
+                            "current_prompt": "Respondé solamente utilizando comandos válidos. Primero girá en sentido antihorario 80 grados y luego dispará sin parar hasta que termine la ronda.",
+                            "last_llm_response": null
+                        }
+                    },
+                    "gameplay_settings_snapshot": {
+                        "bot_diameter": 0.1,
+                        "bot_step_length": 0.03,
+                        "bullet_damage": 5,
+                        "bullet_diameter": 0.02,
+                        "bullet_step_length": 0.01,
+                        "shield_size": 70.0,
+                        "shield_initial_state": true,
+                        "initial_health": 30,
+                        "turns_per_round": 8,
+                        "total_rounds": 2
+                    },
+                    "prompts": [
+                        {
+                            "bot_id": 1,
+                            "prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\nLos comandos válidos son:\nA<angulo>: girar en sentido antihorario, ej A90\nS1: subir el escudo\nS2: bajar el escudo\nB: disparar\n\nLo que necesito que hagas es primero girar en sentido antihorario 90 grados. Luego disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar."
+                        },
+                        {
+                            "bot_id": 2,
+                            "prompt": "Respondé solamente utilizando comandos válidos. Primero girá en sentido antihorario 80 grados y luego dispará sin parar hasta que termine la ronda."
+                        }
+                    ],
+                    "turns": [
+                        {
+                            "turn": 1,
+                            "start_time": "2026-10-26T21:11:11.633144",
+                            "pre_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.6127092772573287,
+                                    "y": 0.6200610940067607,
+                                    "rot": 223.54582987509932,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\nLos comandos válidos son:\nA<angulo>: girar en sentido antihorario, ej A90\nS1: subir el escudo\nS2: bajar el escudo\nB: disparar\n\nLo que necesito que hagas es primero girar en sentido antihorario 90 grados. Luego disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": null
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.14524620978152422,
+                                    "y": 0.8600539030627627,
+                                    "rot": 43.63357729904723,
+                                    "shield": true,
+                                    "current_prompt": "Respondé solamente utilizando comandos válidos. Primero girá en sentido antihorario 80 grados y luego dispará sin parar hasta que termine la ronda.",
+                                    "last_llm_response": null
+                                }
+                            },
+                            "plays": [
+                                {
+                                    "bot_id": 2,
+                                    "llm_response": "A80",
+                                    "cmd": "A80.0"
+                                },
+                                {
+                                    "bot_id": 1,
+                                    "llm_response": "A90\nB",
+                                    "cmd": "ERR"
+                                }
+                            ],
+                            "cmd": "",
+                            "post_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.6127092772573287,
+                                    "y": 0.6200610940067607,
+                                    "rot": 223.54582987509932,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\nLos comandos válidos son:\nA<angulo>: girar en sentido antihorario, ej A90\nS1: subir el escudo\nS2: bajar el escudo\nB: disparar\n\nLo que necesito que hagas es primero girar en sentido antihorario 90 grados. Luego disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "A90\nB"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.14524620978152422,
+                                    "y": 0.8600539030627627,
+                                    "rot": 323.63357729904726,
+                                    "shield": true,
+                                    "current_prompt": "Respondé solamente utilizando comandos válidos. Primero girá en sentido antihorario 80 grados y luego dispará sin parar hasta que termine la ronda.",
+                                    "last_llm_response": "A80"
+                                }
+                            },
+                            "end_time": "2026-10-26T21:11:24.125338"
+                        },
+                        {
+                            "turn": 2,
+                            "start_time": "2026-10-26T21:11:24.139166",
+                            "pre_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.6127092772573287,
+                                    "y": 0.6200610940067607,
+                                    "rot": 223.54582987509932,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\nLos comandos válidos son:\nA<angulo>: girar en sentido antihorario, ej A90\nS1: subir el escudo\nS2: bajar el escudo\nB: disparar\n\nLo que necesito que hagas es primero girar en sentido antihorario 90 grados. Luego disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "A90\nB"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.14524620978152422,
+                                    "y": 0.8600539030627627,
+                                    "rot": 323.63357729904726,
+                                    "shield": true,
+                                    "current_prompt": "Respondé solamente utilizando comandos válidos. Primero girá en sentido antihorario 80 grados y luego dispará sin parar hasta que termine la ronda.",
+                                    "last_llm_response": "A80"
+                                }
+                            },
+                            "plays": [
+                                {
+                                    "bot_id": 2,
+                                    "llm_response": "A80",
+                                    "cmd": "A80.0"
+                                },
+                                {
+                                    "bot_id": 1,
+                                    "llm_response": "A180\nB",
+                                    "cmd": "ERR"
+                                }
+                            ],
+                            "cmd": "",
+                            "post_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.6127092772573287,
+                                    "y": 0.6200610940067607,
+                                    "rot": 223.54582987509932,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\nLos comandos válidos son:\nA<angulo>: girar en sentido antihorario, ej A90\nS1: subir el escudo\nS2: bajar el escudo\nB: disparar\n\nLo que necesito que hagas es primero girar en sentido antihorario 90 grados. Luego disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "A180\nB"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.14524620978152422,
+                                    "y": 0.8600539030627627,
+                                    "rot": 243.63357729904726,
+                                    "shield": true,
+                                    "current_prompt": "Respondé solamente utilizando comandos válidos. Primero girá en sentido antihorario 80 grados y luego dispará sin parar hasta que termine la ronda.",
+                                    "last_llm_response": "A80"
+                                }
+                            },
+                            "end_time": "2026-10-26T21:11:31.367483"
+                        },
+                        {
+                            "turn": 3,
+                            "start_time": "2026-10-26T21:11:31.379668",
+                            "pre_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.6127092772573287,
+                                    "y": 0.6200610940067607,
+                                    "rot": 223.54582987509932,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\nLos comandos válidos son:\nA<angulo>: girar en sentido antihorario, ej A90\nS1: subir el escudo\nS2: bajar el escudo\nB: disparar\n\nLo que necesito que hagas es primero girar en sentido antihorario 90 grados. Luego disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "A180\nB"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.14524620978152422,
+                                    "y": 0.8600539030627627,
+                                    "rot": 243.63357729904726,
+                                    "shield": true,
+                                    "current_prompt": "Respondé solamente utilizando comandos válidos. Primero girá en sentido antihorario 80 grados y luego dispará sin parar hasta que termine la ronda.",
+                                    "last_llm_response": "A80"
+                                }
+                            },
+                            "plays": [
+                                {
+                                    "bot_id": 2,
+                                    "llm_response": "B",
+                                    "cmd": "B"
+                                },
+                                {
+                                    "bot_id": 1,
+                                    "llm_response": "S1\nB",
+                                    "cmd": "ERR"
+                                }
+                            ],
+                            "cmd": "",
+                            "post_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.6127092772573287,
+                                    "y": 0.6200610940067607,
+                                    "rot": 223.54582987509932,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\nLos comandos válidos son:\nA<angulo>: girar en sentido antihorario, ej A90\nS1: subir el escudo\nS2: bajar el escudo\nB: disparar\n\nLo que necesito que hagas es primero girar en sentido antihorario 90 grados. Luego disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "S1\nB"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.14524620978152422,
+                                    "y": 0.8600539030627627,
+                                    "rot": 243.63357729904726,
+                                    "shield": true,
+                                    "current_prompt": "Respondé solamente utilizando comandos válidos. Primero girá en sentido antihorario 80 grados y luego dispará sin parar hasta que termine la ronda.",
+                                    "last_llm_response": "B"
+                                }
+                            },
+                            "end_time": "2026-10-26T21:11:39.440201"
+                        },
+                        {
+                            "turn": 4,
+                            "start_time": "2026-10-26T21:11:39.452421",
+                            "pre_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.6127092772573287,
+                                    "y": 0.6200610940067607,
+                                    "rot": 223.54582987509932,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\nLos comandos válidos son:\nA<angulo>: girar en sentido antihorario, ej A90\nS1: subir el escudo\nS2: bajar el escudo\nB: disparar\n\nLo que necesito que hagas es primero girar en sentido antihorario 90 grados. Luego disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "S1\nB"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.14524620978152422,
+                                    "y": 0.8600539030627627,
+                                    "rot": 243.63357729904726,
+                                    "shield": true,
+                                    "current_prompt": "Respondé solamente utilizando comandos válidos. Primero girá en sentido antihorario 80 grados y luego dispará sin parar hasta que termine la ronda.",
+                                    "last_llm_response": "B"
+                                }
+                            },
+                            "plays": [
+                                {
+                                    "bot_id": 2,
+                                    "llm_response": "B",
+                                    "cmd": "B"
+                                },
+                                {
+                                    "bot_id": 1,
+                                    "llm_response": "S2\nB",
+                                    "cmd": "ERR"
+                                }
+                            ],
+                            "cmd": "",
+                            "post_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.6127092772573287,
+                                    "y": 0.6200610940067607,
+                                    "rot": 223.54582987509932,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\nLos comandos válidos son:\nA<angulo>: girar en sentido antihorario, ej A90\nS1: subir el escudo\nS2: bajar el escudo\nB: disparar\n\nLo que necesito que hagas es primero girar en sentido antihorario 90 grados. Luego disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "S2\nB"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.14524620978152422,
+                                    "y": 0.8600539030627627,
+                                    "rot": 243.63357729904726,
+                                    "shield": true,
+                                    "current_prompt": "Respondé solamente utilizando comandos válidos. Primero girá en sentido antihorario 80 grados y luego dispará sin parar hasta que termine la ronda.",
+                                    "last_llm_response": "B"
+                                }
+                            },
+                            "end_time": "2026-10-26T21:11:47.012102"
+                        },
+                        {
+                            "turn": 5,
+                            "start_time": "2026-10-26T21:11:47.022268",
+                            "pre_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.6127092772573287,
+                                    "y": 0.6200610940067607,
+                                    "rot": 223.54582987509932,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\nLos comandos válidos son:\nA<angulo>: girar en sentido antihorario, ej A90\nS1: subir el escudo\nS2: bajar el escudo\nB: disparar\n\nLo que necesito que hagas es primero girar en sentido antihorario 90 grados. Luego disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "S2\nB"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.14524620978152422,
+                                    "y": 0.8600539030627627,
+                                    "rot": 243.63357729904726,
+                                    "shield": true,
+                                    "current_prompt": "Respondé solamente utilizando comandos válidos. Primero girá en sentido antihorario 80 grados y luego dispará sin parar hasta que termine la ronda.",
+                                    "last_llm_response": "B"
+                                }
+                            },
+                            "plays": [
+                                {
+                                    "bot_id": 2,
+                                    "llm_response": "B",
+                                    "cmd": "B"
+                                },
+                                {
+                                    "bot_id": 1,
+                                    "llm_response": "A180\nB",
+                                    "cmd": "ERR"
+                                }
+                            ],
+                            "cmd": "",
+                            "post_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.6127092772573287,
+                                    "y": 0.6200610940067607,
+                                    "rot": 223.54582987509932,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\nLos comandos válidos son:\nA<angulo>: girar en sentido antihorario, ej A90\nS1: subir el escudo\nS2: bajar el escudo\nB: disparar\n\nLo que necesito que hagas es primero girar en sentido antihorario 90 grados. Luego disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "A180\nB"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.14524620978152422,
+                                    "y": 0.8600539030627627,
+                                    "rot": 243.63357729904726,
+                                    "shield": true,
+                                    "current_prompt": "Respondé solamente utilizando comandos válidos. Primero girá en sentido antihorario 80 grados y luego dispará sin parar hasta que termine la ronda.",
+                                    "last_llm_response": "B"
+                                }
+                            },
+                            "end_time": "2026-10-26T21:11:53.573441"
+                        },
+                        {
+                            "turn": 6,
+                            "start_time": "2026-10-26T21:11:53.586163",
+                            "pre_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.6127092772573287,
+                                    "y": 0.6200610940067607,
+                                    "rot": 223.54582987509932,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\nLos comandos válidos son:\nA<angulo>: girar en sentido antihorario, ej A90\nS1: subir el escudo\nS2: bajar el escudo\nB: disparar\n\nLo que necesito que hagas es primero girar en sentido antihorario 90 grados. Luego disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "A180\nB"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.14524620978152422,
+                                    "y": 0.8600539030627627,
+                                    "rot": 243.63357729904726,
+                                    "shield": true,
+                                    "current_prompt": "Respondé solamente utilizando comandos válidos. Primero girá en sentido antihorario 80 grados y luego dispará sin parar hasta que termine la ronda.",
+                                    "last_llm_response": "B"
+                                }
+                            },
+                            "plays": [
+                                {
+                                    "bot_id": 2,
+                                    "llm_response": "B",
+                                    "cmd": "B"
+                                },
+                                {
+                                    "bot_id": 1,
+                                    "llm_response": "S1\nB",
+                                    "cmd": "ERR"
+                                }
+                            ],
+                            "cmd": "",
+                            "post_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.6127092772573287,
+                                    "y": 0.6200610940067607,
+                                    "rot": 223.54582987509932,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\nLos comandos válidos son:\nA<angulo>: girar en sentido antihorario, ej A90\nS1: subir el escudo\nS2: bajar el escudo\nB: disparar\n\nLo que necesito que hagas es primero girar en sentido antihorario 90 grados. Luego disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "S1\nB"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.14524620978152422,
+                                    "y": 0.8600539030627627,
+                                    "rot": 243.63357729904726,
+                                    "shield": true,
+                                    "current_prompt": "Respondé solamente utilizando comandos válidos. Primero girá en sentido antihorario 80 grados y luego dispará sin parar hasta que termine la ronda.",
+                                    "last_llm_response": "B"
+                                }
+                            },
+                            "end_time": "2026-10-26T21:12:00.293925"
+                        },
+                        {
+                            "turn": 7,
+                            "start_time": "2026-10-26T21:12:00.305372",
+                            "pre_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.6127092772573287,
+                                    "y": 0.6200610940067607,
+                                    "rot": 223.54582987509932,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\nLos comandos válidos son:\nA<angulo>: girar en sentido antihorario, ej A90\nS1: subir el escudo\nS2: bajar el escudo\nB: disparar\n\nLo que necesito que hagas es primero girar en sentido antihorario 90 grados. Luego disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "S1\nB"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.14524620978152422,
+                                    "y": 0.8600539030627627,
+                                    "rot": 243.63357729904726,
+                                    "shield": true,
+                                    "current_prompt": "Respondé solamente utilizando comandos válidos. Primero girá en sentido antihorario 80 grados y luego dispará sin parar hasta que termine la ronda.",
+                                    "last_llm_response": "B"
+                                }
+                            },
+                            "plays": [
+                                {
+                                    "bot_id": 2,
+                                    "llm_response": "B",
+                                    "cmd": "B"
+                                },
+                                {
+                                    "bot_id": 1,
+                                    "llm_response": "S2\nB",
+                                    "cmd": "ERR"
+                                }
+                            ],
+                            "cmd": "",
+                            "post_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.6127092772573287,
+                                    "y": 0.6200610940067607,
+                                    "rot": 223.54582987509932,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\nLos comandos válidos son:\nA<angulo>: girar en sentido antihorario, ej A90\nS1: subir el escudo\nS2: bajar el escudo\nB: disparar\n\nLo que necesito que hagas es primero girar en sentido antihorario 90 grados. Luego disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "S2\nB"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.14524620978152422,
+                                    "y": 0.8600539030627627,
+                                    "rot": 243.63357729904726,
+                                    "shield": true,
+                                    "current_prompt": "Respondé solamente utilizando comandos válidos. Primero girá en sentido antihorario 80 grados y luego dispará sin parar hasta que termine la ronda.",
+                                    "last_llm_response": "B"
+                                }
+                            },
+                            "end_time": "2026-10-26T21:12:07.266578"
+                        },
+                        {
+                            "turn": 8,
+                            "start_time": "2026-10-26T21:12:07.279209",
+                            "pre_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.6127092772573287,
+                                    "y": 0.6200610940067607,
+                                    "rot": 223.54582987509932,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\nLos comandos válidos son:\nA<angulo>: girar en sentido antihorario, ej A90\nS1: subir el escudo\nS2: bajar el escudo\nB: disparar\n\nLo que necesito que hagas es primero girar en sentido antihorario 90 grados. Luego disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "S2\nB"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.14524620978152422,
+                                    "y": 0.8600539030627627,
+                                    "rot": 243.63357729904726,
+                                    "shield": true,
+                                    "current_prompt": "Respondé solamente utilizando comandos válidos. Primero girá en sentido antihorario 80 grados y luego dispará sin parar hasta que termine la ronda.",
+                                    "last_llm_response": "B"
+                                }
+                            },
+                            "plays": [
+                                {
+                                    "bot_id": 2,
+                                    "llm_response": "B",
+                                    "cmd": "B"
+                                },
+                                {
+                                    "bot_id": 1,
+                                    "llm_response": "A180\nB",
+                                    "cmd": "ERR"
+                                }
+                            ],
+                            "cmd": "",
+                            "post_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.6127092772573287,
+                                    "y": 0.6200610940067607,
+                                    "rot": 223.54582987509932,
+                                    "shield": true,
+                                    "current_prompt": "Tu respuesta debe ser un solo comando valido, sin ningun texto adicional.\nLos comandos válidos son:\nA<angulo>: girar en sentido antihorario, ej A90\nS1: subir el escudo\nS2: bajar el escudo\nB: disparar\n\nLo que necesito que hagas es primero girar en sentido antihorario 90 grados. Luego disparar. Luego hasta que termine la ronda, repetir lo siguiente: subir el escudo, bajar el escudo, disparar.",
+                                    "last_llm_response": "A180\nB"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.14524620978152422,
+                                    "y": 0.8600539030627627,
+                                    "rot": 243.63357729904726,
+                                    "shield": true,
+                                    "current_prompt": "Respondé solamente utilizando comandos válidos. Primero girá en sentido antihorario 80 grados y luego dispará sin parar hasta que termine la ronda.",
+                                    "last_llm_response": "B"
+                                }
+                            },
+                            "end_time": "2026-10-26T21:12:14.437577"
+                        }
+                    ],
+                    "end_time": "2026-10-26T21:12:14.449083"
+                },
+                {
+                    "round": 2,
+                    "start_time": "2026-10-26T21:37:55.073627",
+                    "initial_state": {
+                        "1": {
+                            "id": 1,
+                            "health": 30,
+                            "x": 0.6127092772573287,
+                            "y": 0.6200610940067607,
+                            "rot": 223.54582987509932,
+                            "shield": true,
+                            "current_prompt": "Respondé solo con un comando válido y nada más: ni texto, ni símbolos, ni saltos de línea.\nPrimero, rotá en sentido antihorario 90 grados.\nSegundo, bajá el escudo.\nTercero, dispará.\nDespués, hasta que termine la ronda, repetí la secuencia: subí el escudo, bajá el escudo, dispará.",
+                            "last_llm_response": "A180\nB"
+                        },
+                        "2": {
+                            "id": 2,
+                            "health": 30,
+                            "x": 0.14524620978152422,
+                            "y": 0.8600539030627627,
+                            "rot": 243.63357729904726,
+                            "shield": true,
+                            "current_prompt": "Girá en sentido horario hasta quedar apuntando al otro jugador. Después bajá el escudo y disparà sin parar hasta que termine la ronda.",
+                            "last_llm_response": "B"
+                        }
+                    },
+                    "gameplay_settings_snapshot": {
+                        "bot_diameter": 0.1,
+                        "bot_step_length": 0.03,
+                        "bullet_damage": 5,
+                        "bullet_diameter": 0.02,
+                        "bullet_step_length": 0.01,
+                        "shield_size": 70.0,
+                        "shield_initial_state": true,
+                        "initial_health": 30,
+                        "turns_per_round": 8,
+                        "total_rounds": 2
+                    },
+                    "prompts": [
+                        {
+                            "bot_id": 1,
+                            "prompt": "Respondé solo con un comando válido y nada más: ni texto, ni símbolos, ni saltos de línea.\nPrimero, rotá en sentido antihorario 90 grados.\nSegundo, bajá el escudo.\nTercero, dispará.\nDespués, hasta que termine la ronda, repetí la secuencia: subí el escudo, bajá el escudo, dispará."
+                        },
+                        {
+                            "bot_id": 2,
+                            "prompt": "Girá en sentido horario hasta quedar apuntando al otro jugador. Después bajá el escudo y disparà sin parar hasta que termine la ronda."
+                        }
+                    ],
+                    "turns": [
+                        {
+                            "turn": 1,
+                            "start_time": "2026-10-26T21:37:55.084785",
+                            "pre_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.6127092772573287,
+                                    "y": 0.6200610940067607,
+                                    "rot": 223.54582987509932,
+                                    "shield": true,
+                                    "current_prompt": "Respondé solo con un comando válido y nada más: ni texto, ni símbolos, ni saltos de línea.\nPrimero, rotá en sentido antihorario 90 grados.\nSegundo, bajá el escudo.\nTercero, dispará.\nDespués, hasta que termine la ronda, repetí la secuencia: subí el escudo, bajá el escudo, dispará.",
+                                    "last_llm_response": "A180\nB"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.14524620978152422,
+                                    "y": 0.8600539030627627,
+                                    "rot": 243.63357729904726,
+                                    "shield": true,
+                                    "current_prompt": "Girá en sentido horario hasta quedar apuntando al otro jugador. Después bajá el escudo y disparà sin parar hasta que termine la ronda.",
+                                    "last_llm_response": "B"
+                                }
+                            },
+                            "plays": [
+                                {
+                                    "bot_id": 2,
+                                    "llm_response": "A80",
+                                    "cmd": "A80.0"
+                                },
+                                {
+                                    "bot_id": 1,
+                                    "llm_response": "A90\nS2\nB\nS1\nB\nS2\nB",
+                                    "cmd": "ERR"
+                                }
+                            ],
+                            "cmd": "",
+                            "post_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.6127092772573287,
+                                    "y": 0.6200610940067607,
+                                    "rot": 223.54582987509932,
+                                    "shield": true,
+                                    "current_prompt": "Respondé solo con un comando válido y nada más: ni texto, ni símbolos, ni saltos de línea.\nPrimero, rotá en sentido antihorario 90 grados.\nSegundo, bajá el escudo.\nTercero, dispará.\nDespués, hasta que termine la ronda, repetí la secuencia: subí el escudo, bajá el escudo, dispará.",
+                                    "last_llm_response": "A90\nS2\nB\nS1\nB\nS2\nB"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.14524620978152422,
+                                    "y": 0.8600539030627627,
+                                    "rot": 163.63357729904726,
+                                    "shield": true,
+                                    "current_prompt": "Girá en sentido horario hasta quedar apuntando al otro jugador. Después bajá el escudo y disparà sin parar hasta que termine la ronda.",
+                                    "last_llm_response": "A80"
+                                }
+                            },
+                            "end_time": "2026-10-26T21:38:15.196518"
+                        },
+                        {
+                            "turn": 2,
+                            "start_time": "2026-10-26T21:38:15.208081",
+                            "pre_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.6127092772573287,
+                                    "y": 0.6200610940067607,
+                                    "rot": 223.54582987509932,
+                                    "shield": true,
+                                    "current_prompt": "Respondé solo con un comando válido y nada más: ni texto, ni símbolos, ni saltos de línea.\nPrimero, rotá en sentido antihorario 90 grados.\nSegundo, bajá el escudo.\nTercero, dispará.\nDespués, hasta que termine la ronda, repetí la secuencia: subí el escudo, bajá el escudo, dispará.",
+                                    "last_llm_response": "A90\nS2\nB\nS1\nB\nS2\nB"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.14524620978152422,
+                                    "y": 0.8600539030627627,
+                                    "rot": 163.63357729904726,
+                                    "shield": true,
+                                    "current_prompt": "Girá en sentido horario hasta quedar apuntando al otro jugador. Después bajá el escudo y disparà sin parar hasta que termine la ronda.",
+                                    "last_llm_response": "A80"
+                                }
+                            },
+                            "plays": [
+                                {
+                                    "bot_id": 2,
+                                    "llm_response": "S0",
+                                    "cmd": "S0"
+                                },
+                                {
+                                    "bot_id": 1,
+                                    "llm_response": "S2\nB\nS1\nB",
+                                    "cmd": "ERR"
+                                }
+                            ],
+                            "cmd": "",
+                            "post_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.6127092772573287,
+                                    "y": 0.6200610940067607,
+                                    "rot": 223.54582987509932,
+                                    "shield": true,
+                                    "current_prompt": "Respondé solo con un comando válido y nada más: ni texto, ni símbolos, ni saltos de línea.\nPrimero, rotá en sentido antihorario 90 grados.\nSegundo, bajá el escudo.\nTercero, dispará.\nDespués, hasta que termine la ronda, repetí la secuencia: subí el escudo, bajá el escudo, dispará.",
+                                    "last_llm_response": "S2\nB\nS1\nB"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.14524620978152422,
+                                    "y": 0.8600539030627627,
+                                    "rot": 163.63357729904726,
+                                    "shield": false,
+                                    "current_prompt": "Girá en sentido horario hasta quedar apuntando al otro jugador. Después bajá el escudo y disparà sin parar hasta que termine la ronda.",
+                                    "last_llm_response": "S0"
+                                }
+                            },
+                            "end_time": "2026-10-26T21:38:29.205625"
+                        },
+                        {
+                            "turn": 3,
+                            "start_time": "2026-10-26T21:38:29.217267",
+                            "pre_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.6127092772573287,
+                                    "y": 0.6200610940067607,
+                                    "rot": 223.54582987509932,
+                                    "shield": true,
+                                    "current_prompt": "Respondé solo con un comando válido y nada más: ni texto, ni símbolos, ni saltos de línea.\nPrimero, rotá en sentido antihorario 90 grados.\nSegundo, bajá el escudo.\nTercero, dispará.\nDespués, hasta que termine la ronda, repetí la secuencia: subí el escudo, bajá el escudo, dispará.",
+                                    "last_llm_response": "S2\nB\nS1\nB"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.14524620978152422,
+                                    "y": 0.8600539030627627,
+                                    "rot": 163.63357729904726,
+                                    "shield": false,
+                                    "current_prompt": "Girá en sentido horario hasta quedar apuntando al otro jugador. Después bajá el escudo y disparà sin parar hasta que termine la ronda.",
+                                    "last_llm_response": "S0"
+                                }
+                            },
+                            "plays": [
+                                {
+                                    "bot_id": 2,
+                                    "llm_response": "B",
+                                    "cmd": "B"
+                                },
+                                {
+                                    "bot_id": 1,
+                                    "llm_response": "A90\nS1\nB\nS1\nB\nS2",
+                                    "cmd": "ERR"
+                                }
+                            ],
+                            "cmd": "",
+                            "post_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.6127092772573287,
+                                    "y": 0.6200610940067607,
+                                    "rot": 223.54582987509932,
+                                    "shield": true,
+                                    "current_prompt": "Respondé solo con un comando válido y nada más: ni texto, ni símbolos, ni saltos de línea.\nPrimero, rotá en sentido antihorario 90 grados.\nSegundo, bajá el escudo.\nTercero, dispará.\nDespués, hasta que termine la ronda, repetí la secuencia: subí el escudo, bajá el escudo, dispará.",
+                                    "last_llm_response": "A90\nS1\nB\nS1\nB\nS2"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.14524620978152422,
+                                    "y": 0.8600539030627627,
+                                    "rot": 163.63357729904726,
+                                    "shield": false,
+                                    "current_prompt": "Girá en sentido horario hasta quedar apuntando al otro jugador. Después bajá el escudo y disparà sin parar hasta que termine la ronda.",
+                                    "last_llm_response": "B"
+                                }
+                            },
+                            "end_time": "2026-10-26T21:38:43.029438"
+                        },
+                        {
+                            "turn": 4,
+                            "start_time": "2026-10-26T21:38:43.040940",
+                            "pre_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.6127092772573287,
+                                    "y": 0.6200610940067607,
+                                    "rot": 223.54582987509932,
+                                    "shield": true,
+                                    "current_prompt": "Respondé solo con un comando válido y nada más: ni texto, ni símbolos, ni saltos de línea.\nPrimero, rotá en sentido antihorario 90 grados.\nSegundo, bajá el escudo.\nTercero, dispará.\nDespués, hasta que termine la ronda, repetí la secuencia: subí el escudo, bajá el escudo, dispará.",
+                                    "last_llm_response": "A90\nS1\nB\nS1\nB\nS2"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.14524620978152422,
+                                    "y": 0.8600539030627627,
+                                    "rot": 163.63357729904726,
+                                    "shield": false,
+                                    "current_prompt": "Girá en sentido horario hasta quedar apuntando al otro jugador. Después bajá el escudo y disparà sin parar hasta que termine la ronda.",
+                                    "last_llm_response": "B"
+                                }
+                            },
+                            "plays": [
+                                {
+                                    "bot_id": 2,
+                                    "llm_response": "B",
+                                    "cmd": "B"
+                                },
+                                {
+                                    "bot_id": 1,
+                                    "llm_response": "A90\nB\nS1\nB\nS1\nB",
+                                    "cmd": "ERR"
+                                }
+                            ],
+                            "cmd": "",
+                            "post_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.6127092772573287,
+                                    "y": 0.6200610940067607,
+                                    "rot": 223.54582987509932,
+                                    "shield": true,
+                                    "current_prompt": "Respondé solo con un comando válido y nada más: ni texto, ni símbolos, ni saltos de línea.\nPrimero, rotá en sentido antihorario 90 grados.\nSegundo, bajá el escudo.\nTercero, dispará.\nDespués, hasta que termine la ronda, repetí la secuencia: subí el escudo, bajá el escudo, dispará.",
+                                    "last_llm_response": "A90\nB\nS1\nB\nS1\nB"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.14524620978152422,
+                                    "y": 0.8600539030627627,
+                                    "rot": 163.63357729904726,
+                                    "shield": false,
+                                    "current_prompt": "Girá en sentido horario hasta quedar apuntando al otro jugador. Después bajá el escudo y disparà sin parar hasta que termine la ronda.",
+                                    "last_llm_response": "B"
+                                }
+                            },
+                            "end_time": "2026-10-26T21:38:56.813800"
+                        },
+                        {
+                            "turn": 5,
+                            "start_time": "2026-10-26T21:38:56.825196",
+                            "pre_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.6127092772573287,
+                                    "y": 0.6200610940067607,
+                                    "rot": 223.54582987509932,
+                                    "shield": true,
+                                    "current_prompt": "Respondé solo con un comando válido y nada más: ni texto, ni símbolos, ni saltos de línea.\nPrimero, rotá en sentido antihorario 90 grados.\nSegundo, bajá el escudo.\nTercero, dispará.\nDespués, hasta que termine la ronda, repetí la secuencia: subí el escudo, bajá el escudo, dispará.",
+                                    "last_llm_response": "A90\nB\nS1\nB\nS1\nB"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.14524620978152422,
+                                    "y": 0.8600539030627627,
+                                    "rot": 163.63357729904726,
+                                    "shield": false,
+                                    "current_prompt": "Girá en sentido horario hasta quedar apuntando al otro jugador. Después bajá el escudo y disparà sin parar hasta que termine la ronda.",
+                                    "last_llm_response": "B"
+                                }
+                            },
+                            "plays": [
+                                {
+                                    "bot_id": 2,
+                                    "llm_response": "B",
+                                    "cmd": "B"
+                                },
+                                {
+                                    "bot_id": 1,
+                                    "llm_response": "A90\nB\nS2\nB\nS1\nB\nS2",
+                                    "cmd": "ERR"
+                                }
+                            ],
+                            "cmd": "",
+                            "post_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.6127092772573287,
+                                    "y": 0.6200610940067607,
+                                    "rot": 223.54582987509932,
+                                    "shield": true,
+                                    "current_prompt": "Respondé solo con un comando válido y nada más: ni texto, ni símbolos, ni saltos de línea.\nPrimero, rotá en sentido antihorario 90 grados.\nSegundo, bajá el escudo.\nTercero, dispará.\nDespués, hasta que termine la ronda, repetí la secuencia: subí el escudo, bajá el escudo, dispará.",
+                                    "last_llm_response": "A90\nB\nS2\nB\nS1\nB\nS2"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.14524620978152422,
+                                    "y": 0.8600539030627627,
+                                    "rot": 163.63357729904726,
+                                    "shield": false,
+                                    "current_prompt": "Girá en sentido horario hasta quedar apuntando al otro jugador. Después bajá el escudo y disparà sin parar hasta que termine la ronda.",
+                                    "last_llm_response": "B"
+                                }
+                            },
+                            "end_time": "2026-10-26T21:39:10.512112"
+                        },
+                        {
+                            "turn": 6,
+                            "start_time": "2026-10-26T21:39:10.523209",
+                            "pre_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.6127092772573287,
+                                    "y": 0.6200610940067607,
+                                    "rot": 223.54582987509932,
+                                    "shield": true,
+                                    "current_prompt": "Respondé solo con un comando válido y nada más: ni texto, ni símbolos, ni saltos de línea.\nPrimero, rotá en sentido antihorario 90 grados.\nSegundo, bajá el escudo.\nTercero, dispará.\nDespués, hasta que termine la ronda, repetí la secuencia: subí el escudo, bajá el escudo, dispará.",
+                                    "last_llm_response": "A90\nB\nS2\nB\nS1\nB\nS2"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.14524620978152422,
+                                    "y": 0.8600539030627627,
+                                    "rot": 163.63357729904726,
+                                    "shield": false,
+                                    "current_prompt": "Girá en sentido horario hasta quedar apuntando al otro jugador. Después bajá el escudo y disparà sin parar hasta que termine la ronda.",
+                                    "last_llm_response": "B"
+                                }
+                            },
+                            "plays": [
+                                {
+                                    "bot_id": 2,
+                                    "llm_response": "B",
+                                    "cmd": "B"
+                                },
+                                {
+                                    "bot_id": 1,
+                                    "llm_response": "A90\nB\nS1\nB\nS2\nB\nS1",
+                                    "cmd": "ERR"
+                                }
+                            ],
+                            "cmd": "",
+                            "post_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.6127092772573287,
+                                    "y": 0.6200610940067607,
+                                    "rot": 223.54582987509932,
+                                    "shield": true,
+                                    "current_prompt": "Respondé solo con un comando válido y nada más: ni texto, ni símbolos, ni saltos de línea.\nPrimero, rotá en sentido antihorario 90 grados.\nSegundo, bajá el escudo.\nTercero, dispará.\nDespués, hasta que termine la ronda, repetí la secuencia: subí el escudo, bajá el escudo, dispará.",
+                                    "last_llm_response": "A90\nB\nS1\nB\nS2\nB\nS1"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.14524620978152422,
+                                    "y": 0.8600539030627627,
+                                    "rot": 163.63357729904726,
+                                    "shield": false,
+                                    "current_prompt": "Girá en sentido horario hasta quedar apuntando al otro jugador. Después bajá el escudo y disparà sin parar hasta que termine la ronda.",
+                                    "last_llm_response": "B"
+                                }
+                            },
+                            "end_time": "2026-10-26T21:39:24.120549"
+                        },
+                        {
+                            "turn": 7,
+                            "start_time": "2026-10-26T21:39:24.132213",
+                            "pre_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.6127092772573287,
+                                    "y": 0.6200610940067607,
+                                    "rot": 223.54582987509932,
+                                    "shield": true,
+                                    "current_prompt": "Respondé solo con un comando válido y nada más: ni texto, ni símbolos, ni saltos de línea.\nPrimero, rotá en sentido antihorario 90 grados.\nSegundo, bajá el escudo.\nTercero, dispará.\nDespués, hasta que termine la ronda, repetí la secuencia: subí el escudo, bajá el escudo, dispará.",
+                                    "last_llm_response": "A90\nB\nS1\nB\nS2\nB\nS1"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.14524620978152422,
+                                    "y": 0.8600539030627627,
+                                    "rot": 163.63357729904726,
+                                    "shield": false,
+                                    "current_prompt": "Girá en sentido horario hasta quedar apuntando al otro jugador. Después bajá el escudo y disparà sin parar hasta que termine la ronda.",
+                                    "last_llm_response": "B"
+                                }
+                            },
+                            "plays": [
+                                {
+                                    "bot_id": 2,
+                                    "llm_response": "B",
+                                    "cmd": "B"
+                                },
+                                {
+                                    "bot_id": 1,
+                                    "llm_response": "A90\nB\nS1\nB\nS2\nB\nS1",
+                                    "cmd": "ERR"
+                                }
+                            ],
+                            "cmd": "",
+                            "post_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.6127092772573287,
+                                    "y": 0.6200610940067607,
+                                    "rot": 223.54582987509932,
+                                    "shield": true,
+                                    "current_prompt": "Respondé solo con un comando válido y nada más: ni texto, ni símbolos, ni saltos de línea.\nPrimero, rotá en sentido antihorario 90 grados.\nSegundo, bajá el escudo.\nTercero, dispará.\nDespués, hasta que termine la ronda, repetí la secuencia: subí el escudo, bajá el escudo, dispará.",
+                                    "last_llm_response": "A90\nB\nS1\nB\nS2\nB\nS1"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.14524620978152422,
+                                    "y": 0.8600539030627627,
+                                    "rot": 163.63357729904726,
+                                    "shield": false,
+                                    "current_prompt": "Girá en sentido horario hasta quedar apuntando al otro jugador. Después bajá el escudo y disparà sin parar hasta que termine la ronda.",
+                                    "last_llm_response": "B"
+                                }
+                            },
+                            "end_time": "2026-10-26T21:39:37.559571"
+                        },
+                        {
+                            "turn": 8,
+                            "start_time": "2026-10-26T21:39:37.571497",
+                            "pre_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.6127092772573287,
+                                    "y": 0.6200610940067607,
+                                    "rot": 223.54582987509932,
+                                    "shield": true,
+                                    "current_prompt": "Respondé solo con un comando válido y nada más: ni texto, ni símbolos, ni saltos de línea.\nPrimero, rotá en sentido antihorario 90 grados.\nSegundo, bajá el escudo.\nTercero, dispará.\nDespués, hasta que termine la ronda, repetí la secuencia: subí el escudo, bajá el escudo, dispará.",
+                                    "last_llm_response": "A90\nB\nS1\nB\nS2\nB\nS1"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.14524620978152422,
+                                    "y": 0.8600539030627627,
+                                    "rot": 163.63357729904726,
+                                    "shield": false,
+                                    "current_prompt": "Girá en sentido horario hasta quedar apuntando al otro jugador. Después bajá el escudo y disparà sin parar hasta que termine la ronda.",
+                                    "last_llm_response": "B"
+                                }
+                            },
+                            "plays": [
+                                {
+                                    "bot_id": 2,
+                                    "llm_response": "S0",
+                                    "cmd": "S0"
+                                },
+                                {
+                                    "bot_id": 1,
+                                    "llm_response": "A90",
+                                    "cmd": "A90.0"
+                                }
+                            ],
+                            "cmd": "",
+                            "post_state": {
+                                "1": {
+                                    "id": 1,
+                                    "health": 30,
+                                    "x": 0.6127092772573287,
+                                    "y": 0.6200610940067607,
+                                    "rot": 133.54582987509932,
+                                    "shield": true,
+                                    "current_prompt": "Respondé solo con un comando válido y nada más: ni texto, ni símbolos, ni saltos de línea.\nPrimero, rotá en sentido antihorario 90 grados.\nSegundo, bajá el escudo.\nTercero, dispará.\nDespués, hasta que termine la ronda, repetí la secuencia: subí el escudo, bajá el escudo, dispará.",
+                                    "last_llm_response": "A90"
+                                },
+                                "2": {
+                                    "id": 2,
+                                    "health": 30,
+                                    "x": 0.14524620978152422,
+                                    "y": 0.8600539030627627,
+                                    "rot": 163.63357729904726,
+                                    "shield": false,
+                                    "current_prompt": "Girá en sentido horario hasta quedar apuntando al otro jugador. Después bajá el escudo y disparà sin parar hasta que termine la ronda.",
+                                    "last_llm_response": "S0"
+                                }
+                            },
+                            "end_time": "2026-10-26T21:39:50.831802"
+                        }
+                    ],
+                    "end_time": "2026-10-26T21:39:50.844177"
+                }
+            ],
+            "winner": null,
+            "end_time": "2026-10-26T21:39:50.844177"
+        }
+    ],
+    "llm_metadata": {
+        "configured_model": "llama3.2:3b",
+        "last_served_model": "llama3.2:3b",
+        "request_timeout": 75.0,
+        "warmup_timeout": 30.0,
+        "url": "http://localhost",
+        "port": 11434,
+        "config_snapshot": {
+            "num_ctx": 4096,
+            "path": "/api/chat"
+        },
+        "provider_metadata": {}
+    }
+}
